@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Página de perros</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css"> <!--Relación hoja de estilo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<center><h1>Página de perritos</h1></center>
+<!--Esto es un comentario-->
+<center><h3>Imágenes de perritos</h3></center>
+    <!--Imagen desde internet -->
+<img class="img1" src="https://th.bing.com/th/id/R.32f14e070e126f8ec868a885081c3087?rik=Tzv9%2fuMG9omwnw&riu=http%3a%2f%2fwww.perrosamigos.com%2fUploads%2fperrosamigos.com%2fImagenesGrandes%2fm-perros-beagle.html-2.jpg&ehk=1cSDOLsNOOgcaFKaNdF2AEQBrYQLJAFxKmQ%2b%2buUmNJM%3d&risl=&pid=ImgRaw&r=0" width="350px" height="300px">
+
+<img  class="img2" src="https://www.potilaanlaakarilehti.fi/site/assets/files/0/04/16/566/1_10256.1620x0.jpg" width="450px" height="300px">
+
+<!-- CREAR ENLACES EXTERNOS-->
+<p>Si quieres ver más imágenes de perritos, <a href="https://pixabay.com/es/images/search/beagle/" target="_blank">da click en este enlace</a>.</p>  <!-- target _blank para en nueva pestaña -->
+
+<center><h3>Listas de perritos</h3></center>
+
+<section><div><p>3 cosas que los perritos <i><strong>aman:</strong></i></p>
+<ol>
+<li>Comer</li>
+<li>Dormir</li>
+<li>Jugar</li>
+</ol>
+</div>
+
+<p>3 cosas que los perritos <i><strong>odian</strong></i>:</p>
+
+<ul>
+<li>No prestarles atención</li>
+<li>Despertarlos</li>
+<li>Bañarlos (a algunos)</li> 
+<!--li*cantidad para crear múltiples etiquetas-->
+</ul>
+
+
+<!--FORMULARIOS-->
+<form> <!--Etiqueta de formulario-->
+
+ <!--Con botones de radio-->
+ <p>¿Tu perrito es cachorro o es adulto?</p>
+ <label> <!--Asociar etiqueta descritiva con elemento del formulario-->
+    <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked>Cachorro 
+ </label>
+
+<br>
+
+ <label>
+    <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">Adulto
+ </label>
+
+
+
+<!--Form con casillas de verificación-->
+<p>¿Qué tipo de personalidad tiene tu perrito?</p>
+<label>
+    <input id="enojon" type="checkbox" value="enojon" name="personalidad" checked>Enojón
+</label>
+<br>
+<label>
+    <input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad">Cariñoso
+</label>
+<br>
+<label>
+    <input id="jugueton" type="checkbox" value="jugueton" name="personalidad">Juguetón
+</label>
+<br>
+<label>
+    <input id="inquieto" type="checkbox" value="inquieto" name="personalidad">Inquieto
+</label>
+</form>
+</section>
+
+</body>
+
+
+<br>
+<footer>
+<p><small> Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></small></p>
+</footer>
+
+</html>
